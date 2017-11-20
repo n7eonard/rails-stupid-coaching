@@ -1,5 +1,12 @@
-<form action="answer">
-  <input type="text" name= "question">
-  <input type="submit" value="Ask!">
+<div class="alert alert-info text-center" role="alert">
+  Please ask the coach anything you want !
+</div>
 
+<form action="answer" class="text-center">
+  <div class="form-group">
+    <label for="exampleInputQuestion">Question to the coach</label>
+    <input type="text" name= "question" class="form-control" placeholder="Write your question">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your thoughts with anyone else.</small>
+  </div>
+  <input class="btn btn-primary" type="submit" value="Ask!">
 </form>
